@@ -127,3 +127,55 @@ sample_data/sample_claims.csv
 ## Project Status
 
 Completed
+
+## Project Screenshots
+
+### Bronze Layer - Raw Claims Data
+
+![Bronze Claims](screenshots/bronze_claims_data.png)
+
+### Bronze Layer - Record Count Validation
+
+![Bronze Record Count](screenshots/bronze_record_count.png)
+
+### Silver Layer - Clean Claims Data
+
+![Silver Claims](screenshots/silver_claims_data.png)
+
+### Silver Layer - Record Count Validation
+
+![Silver Record Count](screenshots/silver_record_count.png)
+
+### Reject Layer - Invalid Records
+
+![Reject Records](screenshots/reject_records.png)
+
+### Gold Layer - Claim Status Summary
+
+![Claim Status Summary](screenshots/gold_claim_status_summary.png)
+
+### Gold Layer - Monthly Claims Trend
+
+![Monthly Claims](screenshots/gold_monthly_claims.png)
+
+### Gold Layer - State-wise Claims Analytics
+
+![State Wise Claims](screenshots/gold_state_wise_claims.png)
+
+### Gold Layer - Total Paid Amount
+
+![Total Paid Amount](screenshots/gold_total_paid_amount.png)
+
+### Gold Layer - Provider Analytics
+
+![Provider Analytics](screenshots/gold_total_providers.png)
+
+### Job Orchestration Run
+
+![Job Run 1](screenshots/job_orchestration_run_01.png)
+
+![Job Run 2](screenshots/job_orchestration_run_02.png)
+
+### Audit Framework
+
+![Audit Framework](screenshots/audit_framework.png)
