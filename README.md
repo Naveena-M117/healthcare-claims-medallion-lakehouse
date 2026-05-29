@@ -1,4 +1,4 @@
-# Healthcare Claims Medallion Lakehouse Pipeline
+# Enterprise Healthcare Claims Lakehouse Pipeline using Medallion Architecture
 
 ## Overview
 
@@ -126,7 +126,7 @@ sample_data/sample_claims.csv
 
 ## Project Status
 
-Completed
+Production-Style Portfolio Project Completed
 
 ## Project Screenshots
 
