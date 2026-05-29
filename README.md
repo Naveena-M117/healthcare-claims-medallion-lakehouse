@@ -35,30 +35,28 @@ The objective is to:
 
 ## Medallion Architecture
 
-### Landing Layer
+### Architecture Flow
 
-Stores incoming raw healthcare claim files.
-
-### Bronze Layer
-
-- Raw file ingestion
-- Schema preservation
-- Metadata capture
-
-### Silver Layer
-
-- Data quality validation
-- Standardization
-- Reject handling
-- Business rule enforcement
-
-### Reject Layer
-
-Stores records that fail validation checks with reject reasons.
-
-### Gold Layer
-
-Creates business-ready analytics datasets.
+```text
+Landing Zone
+      |
+      v
+Bronze Layer
+(Raw Ingestion)
+      |
+      v
+Silver Layer
+(Data Quality Validation)
+      |
+      +-------> Reject Layer
+      |
+      v
+Gold Layer
+(Business Analytics)
+      |
+      v
+Audit Framework
+```
 
 ---
 
